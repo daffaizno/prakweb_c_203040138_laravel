@@ -26,13 +26,6 @@ class Post
 
     public static function find($slug) {
         $posts = static::all();
-        // $new_post = [];
-        // foreach($posts as $p){
-        //     if($p["slug"] === $slug) {
-        //         $post = $p;
-        //     } 
-        // }
-
         return $posts->firstWhere('slug', $slug);
     }
 }

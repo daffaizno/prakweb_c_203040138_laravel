@@ -20,7 +20,6 @@
 
             </Article>
 
-            <a href="/posts"class='d-block mt-2'>Back</a>
 
         </div>
     </div>
